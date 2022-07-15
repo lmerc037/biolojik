@@ -1,0 +1,36 @@
+{
+    "AboutTitle":{
+        "1": "Take charge of your health",
+        "2":"Discover the benefits of a healthy and organic diet.",
+        "3":"What are the real benefits?",
+        "4":"Organic crops use natural fertilizers like manure to improve plant growth. Organically raised animals also do not receive antibiotic biological hormones.",
+        "5":"But what do scientists think? ",
+        "6":"Eating organic is risk-free and contributes to health prevention. Both for its positive effects and as a precautionary principle, organic food is an asset in a preventive health approach. — QuébecBio"
+    }, "SlideTitle":{
+        "1":"A wide variety of organic fruits and vegetables just for you","2":"Organic products Grown with love","3":"See our products"
+    },"Nav":{
+        "1":"Home","2":"About us","3":"Our products","4":"Easy recipes","5":"Contact","6":"Blog","7":"Faq"
+    },"BreadTitle": {
+        "1": "Our advice and recommendations"
+    },"Progress": {
+        "1": "Monthly Subscription",
+        "2": "Here's how it works",
+        "3": "Step",
+        "4": "Choose a product category, we have fruits, vegetables and wheats.",
+        "5": "Explore the different products and baskets we offer in the chosen category.",
+        "6": "See the details associated with each cart or product then make a reservation.",
+        "7": "Receive the product or basket you ordered to your home regularly."
+
+    },"Services": {
+        "1": "Find what you need",
+        "2": "Our product categories",
+        "3": "Fresh Fruit",
+        "4": "A huge selection of organic fruits chosen with care just for you. There's something for everyone.",
+        "5": "Fresh vegetables",
+        "6": "Fresh and tasty organic vegetables all year round to rediscover the pleasure of eating according to the seasons.",
+        "7": "Cereals",
+        "8": "Our Céréal Bio range, healthy, tasty, easy-to-cook products that will delight all taste buds"
+
+    }
+
+}

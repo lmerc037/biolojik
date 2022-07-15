@@ -1,0 +1,34 @@
+{
+    "AboutTitle":{
+        "1": "Prenez votre santé en main",
+        "2":"Découvrez les bienfaits d'une alimentation saine et biologique.",
+        "3":"Quels sont les véritables bénéfices ?",
+        "4":"Les cultures biologiques utilise des engrais naturels comme le fumier pour améliorer la croissance des plantes. Les animaux élevés biologiquement ne reçoivent pas non plus d'hormones biologiques antibiotiques.",
+        "5":"Mais qu'en pensent les scientifiques ? ",
+        "6":"Manger bio est sans risque et contribue à faire de la prévention en santé. Autant pour ses effets positifs que par principe de précaution, l’alimentation bio constitue un atout dans une approche préventive en santé. — QuébecBio"
+    }, "SlideTitle":{
+        "1":"Une grande variétés de fruits et de légumes bio juste pour vous","2":"Des produits bio Cultivé avec amour","3":"Voir nos produits"
+    },"Nav":{
+        "1":"Accueil","2":"A Propos","3":"Nos Produits","4":"Recettes Faciles","5":"Contact","6":"Blog","7":"Faq"
+    },"BreadTitle": {
+        "1": "Nos conseils et recommandations"
+    },"Progress": {
+        "1": "Abonnement mensuel",
+        "2": "Voici comment ça fonctionne",
+        "3": "Étape",
+        "4": "Choisissez une catégorie de produits, nous avons des fruits, des légumes et des blés.",
+        "5": "Explorer les différent produit et paniers que nous offrons dans la catégories choisi.",
+        "6": "Voir les détails associé a chaque panier ou produits puis faire une réservation.",
+        "7": "Recevez le produit ou panier que vous avez commandez a votre domicile réguliérement."
+    },"Services": {
+        "1": "Trouvez ce qu’il vous faut",
+        "2": "Nos catégories de produits",
+        "3": "Fruits frais",
+        "4": "Une immense sélection de fruits bios choisis avec soins juste pour vous. Il y en a pour tous les goûts.",
+        "5": "Légumes frais",
+        "6": "Des légumes biologiques frais et savoureux toute l'année pour redécouvrir le plaisir de manger au rythme des saisons.",
+        "7": "Céréales",
+        "8": "Notre gamme Céréal Bio, des produits sains, savoureux, faciles à cuisiner, qui raviront toutes les papilles"
+    }
+
+}
