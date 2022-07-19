@@ -38,11 +38,8 @@ const AboutContent = () => {
               </div>
             </div>
           </div>
-          {/*about_wrp*/}
         </div>
-        {/* row */}
       </div>
-      {/* container */}
     </section>
   );
 };

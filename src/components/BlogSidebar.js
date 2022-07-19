@@ -23,7 +23,7 @@ const BlogSidebar = () => {
             <span>
               <i className="fa fa-calendar"></i>15 Mar 2022
             </span>
-            <Link to={`#`}>Que devrait conte... ?</Link>
+            <a href="https://www.noovomoi.ca/cuisiner/trucs-et-inspirations/article.assiette-parfaite.1.1894847.html"  target="_blank" rel="noopener noreferrer">Que devrait conte... ?</a>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ const BlogSidebar = () => {
             <span>
               <i className="fa fa-calendar"></i>6 Nov 2021
             </span>
-            <Link to={`#`}>Inversez la maladie et...</Link>
+            <a href="https://www.newstart.com/about/"   target="_blank" rel="noopener noreferrer">Inversez la maladie et...</a>
           </div>
         </div>
       </aside>

@@ -20,37 +20,37 @@ class BlogPageOne extends Component{
             image:'https://bijouxs.com/wp-content/uploads/2011/06/potaotpan.jpg',
             title:'Pommes de terre au pourpier ',
             date:'20 Minutes', 
-            link: '#',
+            link: 'https://www.youtube.com/watch?v=tPnt7-kMwpo',
         },
         {
             image:'https://images.pexels.com/photos/2122280/pexels-photo-2122280.jpeg',
             title:'Salade argentine de cœurs de palmier  aux avocats          ',
             date:'15 Minutes', 
-            link: '#',
+            link: 'https://www.youtube.com/watch?v=0DWfNNDGIkQ',
         },
         {
             image:'https://images.pexels.com/photos/1555814/pexels-photo-1555814.jpeg',
             title:'Salade de tomates et de pêches, vinaigrette béarnaise',
             date:'20 Minutes', 
-            link: '#',
+            link: 'https://www.youtube.com/watch?v=FEUPIVFcVCQ',
         },
         {
             image:'https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg',
             title:'Salade tiède de patates douces, kale et poulet' ,
             date:'25 Minutes', 
-            link: '#',
+            link: 'https://www.youtube.com/watch?v=qIF-pq1PKpo',
         },
         {
             image:'https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg',
             title:'Salade avocat, tomate, carotte, persil, citron ',
             date:'35 Minutes', 
-            link: '#',
+            link: 'https://www.youtube.com/watch?v=zEa-3N_JR_8',
         },
         {
             image:'https://images.pexels.com/photos/5695872/pexels-photo-5695872.jpeg',
             title:'Salade de riz à la menthe et avocat            ',
             date:'40 Minutes', 
-            link: '#',
+            link: 'https://www.youtube.com/watch?v=YTjn1w7Z3N8',
         },
     ]
 
@@ -71,7 +71,7 @@ class BlogPageOne extends Component{
                             <span> <i className="fa fa-calendar"></i>{valu.date}</span>
                         </div>
                         <span className="blog_read">
-                            <Link to={`${valu.link}`}>En savoir plus </Link><i className="icon-right-open"></i>
+                            <a href={`${valu.link}`} target="_blank" rel="noopener noreferrer">Regarder la recette </a><i className="icon-right-open"></i>
                         </span>
                     </div>
                 </div>
@@ -110,13 +110,7 @@ class BlogPageOne extends Component{
 
 	                    {blogListtMap} 
 
-						<div className="prodt_pagination">
-		                    <ul>
-		                        <li><Link to={process.env.PUBLIC_URL + "/recette"} className="page_number current">1</Link></li>
-		                        <li><Link to={process.env.PUBLIC_URL + "/recette"} className="page_number">2</Link></li>
-		                        <li><Link to={process.env.PUBLIC_URL + "/recette"} className="page_number">→</Link></li>
-		                    </ul>
-		                </div>
+						
 	                </div> 
 	            </div> 
 	        </section>

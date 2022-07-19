@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import MobileMenu from "../components/mobile-menu/MobileMenu";
-import MobileBtn from "../components/mobile-menu/MobileBtn";
 import { useTranslation } from "react-i18next";
 
 const Menu = () => {
@@ -10,7 +8,6 @@ const Menu = () => {
 
   return (
     <div className="menu_area">
-      {/* Start: header navigation */}
       <div className="navigation">
         <div className="container">
           <div className="logo">
@@ -63,22 +60,8 @@ const Menu = () => {
               </Nav>
             </Navbar>
           </div>
-
-          {/* Mobile Menu */}
-
-          <MobileBtn />
-
-          <MobileMenu />
-
-          {/* End:  Mobile Menu */}
-
-          {/* Start: Cart  */}
-          <div className="header_cart"></div>
-          {/* End: Cart  */}
         </div>
-        {/* container */}
       </div>
-      {/* End: header navigation */}
     </div>
   );
 };
