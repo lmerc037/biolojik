@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Myblog = () => {
   return (
@@ -8,12 +7,12 @@ const Myblog = () => {
 
         <div className="col-sm-12">
           <div className="blog_wrp">
-            <Link to="single-blog" className="blog_img">
+          <a href="https://www.newstart.com/about/"    target="_blank" rel="noopener noreferrer">
               <img
                 src="https://biolojik.ca/wp-content/uploads/2021/11/wellness.jpeg"
                 alt=""
               />
-            </Link>
+            </a>
             <div className="blog_info">
               <div className="blog_date">
                 <span>
@@ -24,9 +23,9 @@ const Myblog = () => {
                   <i className="fa fa-calendar"></i>6 Nov 2021
                 </span>
               </div>
-              <Link to={`#`}>
+              <a href="https://www.newstart.com/about/"    target="_blank" rel="noopener noreferrer">
                 <h4>Inversez la maladie et rétablissez votre santé</h4>
-              </Link>
+              </a>
               <p>
                 N E W S T A R T (Nouveau départ) est un programme qui propose un
                 style de vie très simple de 8 points. Il élimine le risque
@@ -42,12 +41,12 @@ const Myblog = () => {
 
         <div className="col-sm-12">
           <div className="blog_wrp">
-            <Link to="single-blog" className="blog_img">
+          <a href="https://www.noovomoi.ca/cuisiner/trucs-et-inspirations/article.assiette-parfaite.1.1894847.html"   target="_blank" rel="noopener noreferrer">
               <img
                 src="https://biolojik.ca/wp-content/uploads/2021/11/guide-alimentaire.jpg"
                 alt=""
               />
-            </Link>
+            </a>
             <div className="blog_info">
               <div className="blog_date">
                 <span>
@@ -58,9 +57,9 @@ const Myblog = () => {
                   <i className="fa fa-calendar"></i>15 Mar 2022
                 </span>
               </div>
-              <Link to={`#`}>
+              <a href="https://www.noovomoi.ca/cuisiner/trucs-et-inspirations/article.assiette-parfaite.1.1894847.html"  target="_blank" rel="noopener noreferrer">
                 <h4>Que devrait contenir mon assiette ?</h4>
-              </Link>
+              </a>
               <p>
                 Au primaire, nous apprenons tous de quoi s’agit les quatre
                 groupes alimentaires, ce que c’est, de quoi ils sont composés.

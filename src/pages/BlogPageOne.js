@@ -1,5 +1,4 @@
 import React,{Component, Fragment} from 'react';
-import {Link} from 'react-router-dom'; 
 import MetaTags from "react-meta-tags";
 import LayoutOne from "../layouts/LayoutOne";
 import Breadcrumb from "../components/Breadcrumb";
@@ -60,13 +59,13 @@ class BlogPageOne extends Component{
         return(
             <div className="col-md-4 col-sm-12" key={i}> 
                 <div className="blog_wrp">
-                    <Link to={`${valu.link}`} className="blog_img"> 
+                <a href={`${valu.link}`} target="_blank" rel="noopener noreferrer">
                         <img src={`${valu.image}`} alt="" />
-                    </Link>
+                    </a>
                     <div className="blog_info">
-                        <Link to={`${valu.link}`}>
+                    <a href={`${valu.link}`} target="_blank" rel="noopener noreferrer">
                             <h4>{valu.title}</h4> 
-                        </Link> 
+                        </a> 
                         <div className="blog_date"> 
                             <span> <i className="fa fa-calendar"></i>{valu.date}</span>
                         </div>

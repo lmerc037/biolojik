@@ -20,12 +20,22 @@ const Footer = () => {
               <div className="footer_p text-center">
                 <p className="footer_para ">
                   <nav>
-                    <a href="/">{t("Nav.1")}</a>
-                    <a href="/historique">{t("Nav.2")}</a>
-                    <a href="/blog">{t("Nav.6")}</a>
-                    <a href="/faq">{t("Nav.7")}</a>
-                    <a href="/shop">{t("Nav.3")}</a>
-                    <a href="/recette">{t("Nav.4")}</a>
+                    <Link to={process.env.PUBLIC_URL + "/"}>{t("Nav.1")}</Link>
+                    <Link to={process.env.PUBLIC_URL + "/historique"}>
+                      {t("Nav.2")} 
+                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/blog"}>
+                      {t("Nav.6")}
+                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/faq"}>
+                      {t("Nav.7")}
+                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/shop"}>
+                      {t("Nav.3")}
+                    </Link>
+                    <Link to={process.env.PUBLIC_URL + "/recette"}>
+                      {t("Nav.4")}
+                    </Link>
                   </nav>
                 </p>
               </div>
